@@ -2,23 +2,21 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
-// Middleware to parse JSON data
+
 app.use(express.json());
 
-// In-memory data store
 let orders = [];
 
-// HOME PAGE ROUTE (Yeh index.html file ko browser mein bhejega)
+
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
-// GET API: Saare orders list karne ke liye
 app.get("/orders", (req, res) => {
     res.json(orders);
 });
 
-// POST API: Naya order add karne ke liye
+
 app.post("/orders", (req, res) => {
     const { customer, food } = req.body;
 
@@ -36,7 +34,6 @@ app.post("/orders", (req, res) => {
     });
 });
 
-// DELETE API: Order delete karne ke liye (Array Index ke hisaab se)
 app.delete("/orders/:id", (req, res) => {
     const id = req.params.id;
 

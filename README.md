@@ -100,6 +100,14 @@ node server.js
 ```text
 http://localhost:3000
 ```
+## 🎓 Internship Project
+
+This project was developed as part of my Frontend Development Internship at @DecodeLabs. Through this project, I gained hands-on experience in building full-stack web applications, working with frontend and backend technologies, and implementing CRUD operations using REST APIs.
+
+The project helped strengthen my skills in HTML, CSS, JavaScript, Node.js, and Express.js while applying real-world development practices in a practical learning environment.
+
+Special thanks to DecodeLabs for providing valuable mentorship, guidance, and the opportunity to work on industry-oriented projects.
+
 
 ## 📚 Learning Outcomes
 
@@ -109,6 +117,7 @@ http://localhost:3000
 * Form validation
 * Dynamic DOM manipulation
 * Basic CRUD operations
+  
 
   ## Preview
   <img width="1638" height="930" alt="image" src="https://github.com/user-attachments/assets/0ede459e-9dfb-49ff-959a-15db7915824d" />
